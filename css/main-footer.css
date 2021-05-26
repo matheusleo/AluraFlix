@@ -1,0 +1,12 @@
+.main-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-footer .title {
+  color: var(--color-third);
+  font-size: 30px;
+  padding-top: 15px;
+  padding-bottom: 20px;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>AluraFlix</title>
+
+        <!--Esse espaço é reservado para configurações
+        Não esqueça de importar os arquivos CSS para cá
+        a fim de estilizar a página para ele de fato ser 
+        bela e funcional-->
+
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Fira+Code&family=Press+Start+2P&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/banner-input.css">
+        <link rel="stylesheet" href="css/base.css">
+        <link rel="stylesheet" href="css/list-banner.css">
+        <link rel="stylesheet" href="css/main-banner.css">
+        <link rel="stylesheet" href="css/main-button.css">
+        <link rel="stylesheet" href="css/main-caption.css">
+        <link rel="stylesheet" href="css/main-footer.css">
+        <link rel="stylesheet" href="css/main-label.css">
+        <link rel="stylesheet" href="css/main-title.css">
+        <link rel="stylesheet" href="css/name-input.css">
+        <link rel="stylesheet" href="css/wrapper-banner.css">
+
+    </head>
+
+    <body> 
+        <h1 class="main-title">AluraFlix</h1>
+
+        <label class="main-label" for="name">Qual o seu filme favorito?</label>
+        <input id="name" class="name-input" type="text" placeholder="Nome do filme">
+        <input id="banner" class="banner-input" type="text" placeholder="URL do banner do filme">
+        
+        
+        <button id="add-button"class="main-button">Adicionar</button>
+
+        <!--Verificar se uma id e uma class podem apresentar o mesmo nome se elas estiverem
+        relacionadas com a mesma tag (<section id= class="list-banner">)-->
+        <section id="list-banner" class="list-banner">
+            <figure class="wrapper-banner">
+                <img class="main-banner" src="img/banner1.jpg" alt="The Expanse">
+                <figcaption class="main-caption">The Expanse</figcaption>
+            </figure>
+
+            <figure class="wrapper-banner">
+                <img class="main-banner" src="img/banner2.jpg" alt="The Mandalorian">
+                <figcaption class="main-caption">The Mandalorian</figcaption>
+            </figure>
+
+            <figure class="wrapper-banner">
+                <img class="main-banner" src="img/banner3.jpg" alt="The Witcher">
+                <figcaption class="main-caption">The Witcher</figcaption>
+            </figure>
+        </section>  
+
+        <footer class="main-footer">
+            <a class="logo" href="https://alura.com.br/promocao/MarcoBrunoDev">
+                <img src="img/logo.png" alt="Logo da Alura">
+            </a>
+            <h3 class="title">#ImersãoDev</h3>
+        </footer>
+        <script src="js/script.js"></script>
+    </body> 
+</html>
+
+
+<!-- COMENTÁRIO 
+h1 - heading - h1 aé h6 - h máx. na web: h3
+label - trad.: rótulo - geral., é para informar qual o conteúdo esperado que o usuário insira no input
+input - é o local de entrada de dados que pode apresentar o type do que será inserido para maior praticidade-->
